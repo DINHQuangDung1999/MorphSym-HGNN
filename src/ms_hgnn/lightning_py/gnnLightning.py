@@ -1176,7 +1176,7 @@ def train_model(
         limit_val_batches = 5
         limit_test_batches = 5
         limit_predict_batches = limit_test_batches * batch_size
-        num_workers = 1
+        num_workers = 0
         persistent_workers = False
 
     # Set the dtype to be 64 by default
